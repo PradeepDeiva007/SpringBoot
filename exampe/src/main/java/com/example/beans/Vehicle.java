@@ -1,8 +1,15 @@
 package com.example.beans;
 
 public class Vehicle {
+	
+	
 
 	private String name;
+
+	public Vehicle() {
+		super();
+		System.out.println("Vehicle Bean Created");
+	}
 
 	public String getName() {
 		return name;
