@@ -13,7 +13,7 @@ public class Example {
 		Vehicle v = context.getBean(Vehicle.class);
 		System.out.println(v.getName());
 		
-		
+		/* 
 		Vehicle v1 = context.getBean("TVS",Vehicle.class);
 		System.out.println(v1.getName());
 		
@@ -22,7 +22,7 @@ public class Example {
 		
 		Vehicle v3 = context.getBean("YAMAHA",Vehicle.class);
 		System.out.println(v3.getName());
-		
+		*/
 		
 		System.out.println(context.getBean(String.class));
 
